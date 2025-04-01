@@ -5,6 +5,9 @@ const Login = () =>{
 
     const[email, setEmail] = useState('');
     const[password, setPassword] = useState('');
+
+
+    //agregar useState para los mensajes de login completado, y login invalido
     const navigate = useNavigate();
 
     const handleSubmit = (e) => {
@@ -21,6 +24,7 @@ const Login = () =>{
         }
 
     }   
+    //agregar el handleLogin, para hacer el login por API (wiremock o cualquier otra vista en clase de electiva)
 
 
 return <>
